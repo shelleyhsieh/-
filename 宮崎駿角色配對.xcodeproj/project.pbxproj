@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		D967F379293CA1CD00C544BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F378293CA1CD00C544BE /* AppDelegate.swift */; };
 		D967F37B293CA1CD00C544BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F37A293CA1CD00C544BE /* SceneDelegate.swift */; };
-		D967F37D293CA1CD00C544BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F37C293CA1CD00C544BE /* ViewController.swift */; };
 		D967F380293CA1CD00C544BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967F37E293CA1CD00C544BE /* Main.storyboard */; };
 		D967F382293CA1CE00C544BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D967F381293CA1CE00C544BE /* Assets.xcassets */; };
 		D967F385293CA1CE00C544BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967F383293CA1CE00C544BE /* LaunchScreen.storyboard */; };
+		D967F38D293CC13800C544BE /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F38C293CC13800C544BE /* SharpImageView.swift */; };
+		D967F38F293CC39A00C544BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F38E293CC39A00C544BE /* LoginViewController.swift */; };
+		D967F391293CC48E00C544BE /* GhibliViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F390293CC48E00C544BE /* GhibliViewController.swift */; };
+		D967F393293EE40F00C544BE /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D967F392293EE40F00C544BE /* ChenYuluoyan-Thin.ttf */; };
+		D967F395293EE8E500C544BE /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D967F394293EE8E500C544BE /* jf-openhuninn-1.1.ttf */; };
+		D967F397293EEFFF00C544BE /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F396293EEFFF00C544BE /* resultViewController.swift */; };
+		D967F399293F07F900C544BE /* ResultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967F398293F07F900C544BE /* ResultInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D967F375293CA1CD00C544BE /* 宮崎駿角色配對.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宮崎駿角色配對.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D967F378293CA1CD00C544BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D967F37A293CA1CD00C544BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D967F37C293CA1CD00C544BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D967F37F293CA1CD00C544BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D967F381293CA1CE00C544BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D967F384293CA1CE00C544BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D967F386293CA1CE00C544BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D967F38C293CC13800C544BE /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		D967F38E293CC39A00C544BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		D967F390293CC48E00C544BE /* GhibliViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhibliViewController.swift; sourceTree = SOURCE_ROOT; };
+		D967F392293EE40F00C544BE /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
+		D967F394293EE8E500C544BE /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
+		D967F396293EEFFF00C544BE /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = SOURCE_ROOT; };
+		D967F398293F07F900C544BE /* ResultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInfo.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		D967F377293CA1CD00C544BE /* 宮崎駿角色配對 */ = {
 			isa = PBXGroup;
 			children = (
+				D967F392293EE40F00C544BE /* ChenYuluoyan-Thin.ttf */,
+				D967F394293EE8E500C544BE /* jf-openhuninn-1.1.ttf */,
 				D967F378293CA1CD00C544BE /* AppDelegate.swift */,
 				D967F37A293CA1CD00C544BE /* SceneDelegate.swift */,
-				D967F37C293CA1CD00C544BE /* ViewController.swift */,
+				D967F38C293CC13800C544BE /* SharpImageView.swift */,
+				D967F398293F07F900C544BE /* ResultInfo.swift */,
+				D967F396293EEFFF00C544BE /* resultViewController.swift */,
+				D967F390293CC48E00C544BE /* GhibliViewController.swift */,
+				D967F38E293CC39A00C544BE /* LoginViewController.swift */,
 				D967F37E293CA1CD00C544BE /* Main.storyboard */,
 				D967F381293CA1CE00C544BE /* Assets.xcassets */,
 				D967F383293CA1CE00C544BE /* LaunchScreen.storyboard */,
@@ -125,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D967F395293EE8E500C544BE /* jf-openhuninn-1.1.ttf in Resources */,
 				D967F385293CA1CE00C544BE /* LaunchScreen.storyboard in Resources */,
+				D967F393293EE40F00C544BE /* ChenYuluoyan-Thin.ttf in Resources */,
 				D967F382293CA1CE00C544BE /* Assets.xcassets in Resources */,
 				D967F380293CA1CD00C544BE /* Main.storyboard in Resources */,
 			);
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D967F37D293CA1CD00C544BE /* ViewController.swift in Sources */,
+				D967F38F293CC39A00C544BE /* LoginViewController.swift in Sources */,
+				D967F391293CC48E00C544BE /* GhibliViewController.swift in Sources */,
 				D967F379293CA1CD00C544BE /* AppDelegate.swift in Sources */,
+				D967F397293EEFFF00C544BE /* resultViewController.swift in Sources */,
 				D967F37B293CA1CD00C544BE /* SceneDelegate.swift in Sources */,
+				D967F38D293CC13800C544BE /* SharpImageView.swift in Sources */,
+				D967F399293F07F900C544BE /* ResultInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +314,7 @@
 				DEVELOPMENT_TEAM = J79C4AJ58Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "宮崎駿角色配對/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GHIBLIRandomPairing;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +343,7 @@
 				DEVELOPMENT_TEAM = J79C4AJ58Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "宮崎駿角色配對/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GHIBLIRandomPairing;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
